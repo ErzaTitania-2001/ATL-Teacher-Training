@@ -65,9 +65,16 @@ body{
 /* Style the collapsible content. Note: hidden by default */
 .content {
   padding: 0 18px;
+  width : 77%;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+  top: 17%;
+  bottom:0;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+    
   
 }
 .logo{
